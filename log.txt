@@ -1,0 +1,11 @@
+Part 1 - Initial Setup - ~15 minutes: 
+    Clone repository
+    browse files
+    npm install
+    npm start
+    curl 5 times to make sure it works
+
+Part 2 - Research - 30 minutes:
+    Google about scaling node
+    Discover Apache tool "ab" for rudimentary load testing
+    Test current performance of /api/usages
