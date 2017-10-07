@@ -1,1 +1,1 @@
-ab -c20 -t10 -p data.json http://localhost:3000/api/usages
+ab -c200 -t60 -n1000000 -p data.json http://localhost:3000/api/usages

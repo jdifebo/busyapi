@@ -8,4 +8,32 @@ Part 1 - Initial Setup - ~15 minutes:
 Part 2 - Research - 30 minutes:
     Google about scaling node
     Discover Apache tool "ab" for rudimentary load testing
-    Test current performance of /api/usages
+    Test current performance of /api/usages on my laptop
+        15256 requests in 10 seconds
+
+Part 3 - Basic Clustering - 30 minutes:
+    Spin up many processes to run multiple servers
+    Incomplete solution since each process has it's own stored usage count
+
+Part 4 - Performance Testing - 30 minutes:
+    Using multiple threads had a surprisingly small impact on my personal laptop
+    Create Google Cloud instance with free trial
+        Start with a small instance and run the code - no benefit from running multiple processes because it only has 1 CPU (oops!)
+        Upgrade to an 8 CPU machine - got through almost half of a million requests in a minute!
+
+Part 5 - Counting Usages Correctly - 1.5 hours:
+    Look up documentation on sending messages between master and worker processes
+    Add code to cluster.js to recieve messages from worker processes
+    Move usage array to cluster.js
+    Add logic to send messages from worker processes
+    Add logic to listen to messages sent from master process and finalize response
+    Debug!  Got message "Can't set headers after they are sent"
+    After getting message from master process, the correct response isn't getting used
+    Solution: Create a map of pending responses and pass information that indicates which response should be used
+    Verify: use some print statements to see the individual counts for each worker process.
+
+Part 6 - Final Testing - 30 minutes:
+    Load new code into Google Cloud instance
+    Test again, 481,567 completed in 60 seconds
+    Get even bigger instance, 16 CPUS (n1-highcpu-16)
+    Test for 60 seconds again, finished 723,979 requests

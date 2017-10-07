@@ -1,3 +1,115 @@
-Hello from master
-Stored usage count: 1
-[0mPOST /api/usages [32m201 [0m28.783 ms - 8[0m
+Creating  3  worker processes
+Worker 8664 received message from master. { id: 0, count: 1 }
+Worker 12304 received message from master. { id: 0, count: 2 }
+[0mPOST /api/usages [32m201 [0m42.895 ms - 8[0m
+Worker 8664 received message from master. { id: 1, count: 3 }
+[0mPOST /api/usages [32m201 [0m39.029 ms - 8[0m
+[0mPOST /api/usages [32m201 [0m38.132 ms - 8[0m
+Worker 12304 received message from master. { id: 1, count: 6 }
+Worker 8664 received message from master. { id: 2, count: 8 }
+Worker 12920 received message from master. { id: 0, count: 4 }
+[0mPOST /api/usages [32m201 [0m4.271 ms - 8[0m
+[0mPOST /api/usages [32m201 [0m7.542 ms - 8[0m
+Worker 12304 received message from master. { id: 2, count: 7 }
+[0mPOST /api/usages [32m201 [0m10.864 ms - 8[0m
+Worker 8664 received message from master. { id: 3, count: 9 }
+Worker 12304 received message from master. { id: 3, count: 10 }
+[0mPOST /api/usages [32m201 [0m1.452 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m13.779 ms - 8[0m
+Worker 12304 received message from master. { id: 4, count: 11 }
+[0mPOST /api/usages [32m201 [0m1.283 ms - 9[0m
+Worker 12304 received message from master. { id: 5, count: 12 }
+[0mPOST /api/usages [32m201 [0m4.995 ms - 9[0m
+Worker 12304 received message from master. { id: 6, count: 13 }
+[0mPOST /api/usages [32m201 [0m3.487 ms - 9[0m
+Worker 8664 received message from master. { id: 4, count: 14 }
+[0mPOST /api/usages [32m201 [0m6.044 ms - 9[0m
+Worker 12304 received message from master. { id: 7, count: 16 }
+[0mPOST /api/usages [32m201 [0m1.087 ms - 9[0m
+Worker 8664 received message from master. { id: 5, count: 15 }
+[0mPOST /api/usages [32m201 [0m7.809 ms - 9[0m
+Worker 8664 received message from master. { id: 6, count: 18 }
+Worker 12304 received message from master. { id: 8, count: 17 }
+[0mPOST /api/usages [32m201 [0m49.198 ms - 8[0m
+[0mPOST /api/usages [32m201 [0m3.957 ms - 9[0m
+Worker 12304 received message from master. { id: 9, count: 19 }
+Worker 12920 received message from master. { id: 1, count: 5 }
+[0mPOST /api/usages [32m201 [0m5.963 ms - 9[0m
+Worker 12304 received message from master. { id: 10, count: 20 }
+[0mPOST /api/usages [32m201 [0m7.246 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m64.095 ms - 8[0m
+Worker 12304 received message from master. { id: 11, count: 21 }
+[0mPOST /api/usages [32m201 [0m4.264 ms - 9[0m
+Worker 12920 received message from master. { id: 2, count: 23 }
+Worker 12304 received message from master. { id: 12, count: 22 }
+[0mPOST /api/usages [32m201 [0m4.998 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m2.593 ms - 9[0m
+Worker 12304 received message from master. { id: 13, count: 24 }
+[0mPOST /api/usages [32m201 [0m2.033 ms - 9[0m
+Worker 12920 received message from master. { id: 3, count: 26 }
+[0mPOST /api/usages [32m201 [0m0.880 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m1.020 ms - 9[0m
+Worker 12304 received message from master. { id: 14, count: 25 }
+[0mPOST /api/usages [32m201 [0m6.070 ms - 9[0m
+Worker 12304 received message from master. { id: 15, count: 27 }
+[0mPOST /api/usages [32m201 [0m3.070 ms - 9[0m
+Worker 12304 received message from master. { id: 16, count: 28 }
+Worker 8664 received message from master. { id: 7, count: 30 }
+[0mPOST /api/usages [32m201 [0m2.211 ms - 9[0m
+Worker 12304 received message from master. { id: 17, count: 29 }
+[0mPOST /api/usages [32m201 [0m1.401 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m2.675 ms - 9[0m
+Worker 12920 received message from master. { id: 4, count: 31 }
+[0mPOST /api/usages [32m201 [0m1.128 ms - 9[0m
+Worker 12920 received message from master. { id: 5, count: 32 }
+[0mPOST /api/usages [32m201 [0m0.953 ms - 9[0m
+Worker 12920 received message from master. { id: 6, count: 33 }
+Worker 8664 received message from master. { id: 8, count: 36 }
+[0mPOST /api/usages [32m201 [0m2.620 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m0.862 ms - 9[0m
+Worker 12920 received message from master. { id: 7, count: 35 }
+[0mPOST /api/usages [32m201 [0m4.016 ms - 9[0m
+Worker 12920 received message from master. { id: 8, count: 37 }
+Worker 12304 received message from master. { id: 18, count: 34 }
+[0mPOST /api/usages [32m201 [0m2.211 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m6.614 ms - 9[0m
+Worker 12920 received message from master. { id: 9, count: 39 }
+Worker 8664 received message from master. { id: 9, count: 38 }
+[0mPOST /api/usages [32m201 [0m2.708 ms - 9[0m
+Worker 8664 received message from master. { id: 10, count: 40 }
+[0mPOST /api/usages [32m201 [0m2.106 ms - 9[0m
+Worker 12304 received message from master. { id: 19, count: 42 }
+Worker 8664 received message from master. { id: 11, count: 41 }
+[0mPOST /api/usages [32m201 [0m0.840 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m3.201 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m1.413 ms - 9[0m
+Worker 8664 received message from master. { id: 12, count: 43 }
+[0mPOST /api/usages [32m201 [0m2.582 ms - 9[0m
+Worker 12920 received message from master. { id: 10, count: 44 }
+[0mPOST /api/usages [32m201 [0m1.007 ms - 9[0m
+Worker 8664 received message from master. { id: 13, count: 46 }
+Worker 12304 received message from master. { id: 20, count: 45 }
+[0mPOST /api/usages [32m201 [0m1.855 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m3.260 ms - 9[0m
+Worker 12920 received message from master. { id: 11, count: 49 }
+Worker 8664 received message from master. { id: 14, count: 47 }
+[0mPOST /api/usages [32m201 [0m2.641 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m6.666 ms - 9[0m
+Worker 12304 received message from master. { id: 21, count: 48 }
+[0mPOST /api/usages [32m201 [0m7.327 ms - 9[0m
+Worker 8664 received message from master. { id: 15, count: 50 }
+Worker 12304 received message from master. { id: 22, count: 51 }
+[0mPOST /api/usages [32m201 [0m3.731 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m4.038 ms - 9[0m
+Worker 12920 received message from master. { id: 12, count: 53 }
+Worker 8664 received message from master. { id: 16, count: 52 }
+[0mPOST /api/usages [32m201 [0m3.672 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m1.268 ms - 9[0m
+Worker 12304 received message from master. { id: 23, count: 55 }
+Worker 8664 received message from master. { id: 17, count: 54 }
+[0mPOST /api/usages [32m201 [0m3.708 ms - 9[0m
+Worker 12920 received message from master. { id: 13, count: 57 }
+[0mPOST /api/usages [32m201 [0m3.035 ms - 9[0m
+Worker 8664 received message from master. { id: 18, count: 58 }
+[0mPOST /api/usages [32m201 [0m3.321 ms - 9[0m
+[0mPOST /api/usages [32m201 [0m2.534 ms - 9[0m
